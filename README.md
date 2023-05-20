@@ -13,4 +13,4 @@ MemoryController.sv controls the data flow of weights, input feature maps, and o
 
 Systolic.sv is a wrapper for the systolic array.
 
-Current design only allows convolution of 16x16 images by 3x3 weights.
+Current design only allows convolution of 16x16 images by 3x3 weights, and yields **190 MHz** on Cyclone IV synthesis in Quartus
